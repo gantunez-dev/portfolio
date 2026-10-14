@@ -105,3 +105,73 @@ footer {
     font-size: 0.85rem;
     border-top: 1px solid #1e293b;
 }
+
+/* Estilos para tarjetas enriquecidas */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.badge {
+    background-color: #0369a1;
+    color: #e0f2fe;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.card-features {
+    list-style: none;
+    margin: 1rem 0;
+    padding-left: 0;
+}
+
+.card-features li {
+    font-size: 0.88rem;
+    color: #94a3b8;
+    margin-bottom: 0.4rem;
+}
+
+.card-features code {
+    background-color: #0f172a;
+    color: #38bdf8;
+    padding: 0.1rem 0.3rem;
+    border-radius: 4px;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.2rem 0;
+}
+
+.tag {
+    background-color: #334155;
+    color: #38bdf8;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.card-actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(56, 189, 248, 0.1);
+}

@@ -10,14 +10,19 @@
 <body>
 
     <!-- HERO / PRESENTACIÓN -->
-    <header class="hero">
+    <header class="hero reveal">
         <div class="hero-content">
+            <img src="assets/img/profile.jpg" alt="Gonzalo Antunez" class="profile-pic">
+            
             <h1>Gonzalo Sebastian Antunez</h1>
             <p class="subtitle">Desarrollador de Software | Maestro Mayor de Obras (MMO) | Operaciones en GIP</p>
+            
             <div class="credentials">
                 <span class="location">📍 Misiones, Argentina</span>
-                <a href="https://refe.educacion.gob.ar/v/866317n7sdU17fODIhT1VL" target="_blank" class="badge-verified">✓ Título MMO Verificado (Min. Educación)</a>
+                <a href="https://refe.educacion.gob.ar/v/866317n7sdU17fODIhT1VL" target="_blank" class="badge-verified">✓ Verificación Min. Educación</a>
+                <a href="assets/docs/GONZALO_SEBASTIAN_ANTUNEZ_-_MAESTRO_MAYOR_DE_OBRAS[1].pdf" target="_blank" class="badge-document">📄 Ver Título Físico (PDF)</a>
             </div>
+
             <div class="social-links">
                 <a href="https://linkedin.com/in/gantunez-dev" target="_blank">LinkedIn</a>
                 <a href="https://x.com/gantunez_dev" target="_blank">X (Twitter)</a>
@@ -29,7 +34,7 @@
     <main class="container">
 
         <!-- PILAR 1: ARQUITECTURA E INFRAESTRUCTURA (MMO) -->
-        <section class="portfolio-section">
+        <section class="portfolio-section reveal">
             <h2>🏗️ Infraestructura & Arquitectura (MMO)</h2>
             <div class="card-grid">
                 <article class="card project-highlight">
@@ -43,21 +48,24 @@
                         
                         <div class="metrics-grid">
                             <div class="metric"><span>Superficie</span> 30.500 m²</div>
-                            <div class="metric"><span>Presupuesto</span> $32.252M ARS</div>
-                            <div class="metric"><span>Cálculo</span> Zapatas H25 (1.6x1.6m)</div>
+                            <div class="metric"><span>Presupuesto</span> $53.805.667,23 ARS</div>
                             <div class="metric"><span>Equipo</span> A/B Group</div>
                         </div>
 
-                        <div class="gallery-preview">
-                            <img src="assets/img/Escena 3_1.png" alt="Cúpula Central y Terraza" class="preview-trigger">
-                            <img src="assets/img/Screenshot 2026-10-23 205044.png" alt="Planimetría en AutoCAD Espacio Modelo" class="preview-trigger">
-                            <img src="assets/img/barrio GIAI-1.jpg" alt="Panel de Concepto y Croquis" class="preview-trigger">
-                            <img src="assets/img/IMG-20241114-WA0069.jpg" alt="Equipo de Trabajo EPET N° 4" class="preview-trigger">
+                        <div class="media-showcase">
+                            <video src="assets/Barrio 15s.mp4" autoplay loop muted playsinline class="raw-video-proof"></video>
+                            
+                            <div class="gallery-preview">
+                                <img src="assets/img/Escena 3_1.png" alt="Cúpula Central y Terraza" class="preview-trigger">
+                                <img src="assets/img/Screenshot 2026-10-23 205044.png" alt="Planimetría en AutoCAD Espacio Modelo" class="preview-trigger">
+                                <img src="assets/img/barrio GIAI-1.jpg" alt="Panel de Concepto y Croquis" class="preview-trigger">
+                                <img src="assets/img/IMG-20241114-WA0069.jpg" alt="Equipo de Trabajo EPET N° 4" class="preview-trigger">
+                            </div>
                         </div>
 
                         <div class="card-actions">
-                            <a href="assets/docs/Barrio_Gaspar_Giai_Proyecto_Ejecutivo.pdf" target="_blank" class="btn">Ver Legajo Técnico (PDF)</a>
-                            <a href="assets/img/Screenshot 2026-10-23 205044.png" target="_blank" class="btn btn-secondary">Ver Plano CAD HD</a>
+                            <a href="assets/docs/Barrio_Gaspar_Giai_Proyecto_Completo.pdf" target="_blank" class="btn glow-effect">Ver Legajo Completo (PDF)</a>
+                            <a href="https://drive.google.com/file/d/1HcWcsKdKZaNFn313Tdx8kYdu3NqlfIDG/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Descargar Source Files (.ZIP)</a>
                         </div>
                     </div>
                 </article>
@@ -65,7 +73,7 @@
         </section>
 
         <!-- PILAR 2: SOFTWARE & SISTEMAS (UGD) -->
-        <section class="portfolio-section">
+        <section class="portfolio-section reveal">
             <h2>💻 Software & Sistemas (UGD)</h2>
             <div class="card-grid">
                 <article class="card">
@@ -98,14 +106,43 @@
             </div>
         </section>
 
-        <!-- PILAR 3: OPERACIONES & E-COMMERCE (GIP) -->
-        <section class="portfolio-section">
-            <h2>📦 Operaciones & Logística (GIP)</h2>
+        <!-- PILAR 3: HARDWARE & ROBÓTICA (UDEMM) -->
+        <section class="portfolio-section reveal">
+            <h2>⚙️ Hardware & Robótica (UDEMM)</h2>
             <div class="card-grid">
                 <article class="card">
                     <div class="card-body">
+                        <div class="card-header">
+                            <h3>Certificaciones Oficiales</h3>
+                            <span class="badge">Universidad de la Marina Mercante</span>
+                        </div>
+                        <p>Formación técnica certificada en arquitectura de hardware, diagnóstico de sistemas computacionales y fundamentos de robótica.</p>
+                        
+                        <div class="gallery-preview cert-gallery">
+                            <img src="assets/img/Diagnóstico y Mantenimiento de PC 2023.jpeg" alt="Certificación: Diagnóstico y Mantenimiento de PC (2023)" class="preview-trigger">
+                            <img src="assets/img/Robótica 2024.jpeg" alt="Certificación: Robótica (2024)" class="preview-trigger">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- PILAR 4: OPERACIONES & E-COMMERCE (GIP) -->
+        <section class="portfolio-section reveal">
+            <h2>📦 Operaciones & Logística (GIP)</h2>
+            <div class="card-grid">
+                <article class="card gip-card">
+                    <div class="gip-brand">
+                        <img src="assets/img/Imagotipo GIP.jpg" alt="Logo Oficial GIP" class="gip-logo preview-trigger">
+                    </div>
+                    <div class="card-body">
                         <h3>Gestión de Importación de Herramientas Técnicas</h3>
-                        <p>Dirección de e-commerce y estructuración de inventario en Mercado Libre para líneas de alta potencia (Safarimax Germany, LV PRO, Hongda). Optimización algorítmica de listings para máxima conversión y diseño de infografías técnicas (1200x1200px).</p>
+                        <p>Dirección de e-commerce y estructuración de inventario para líneas de alta potencia. Optimización algorítmica de listings para máxima conversión, control de márgenes logísticos y diseño de identidad visual corporativa para posicionamiento en Mercado Libre.</p>
+                        <div class="tech-stack">
+                            <span class="tag">E-commerce</span>
+                            <span class="tag">Logística</span>
+                            <span class="tag">Branding Visual</span>
+                        </div>
                     </div>
                 </article>
             </div>
@@ -113,15 +150,15 @@
 
     </main>
 
-    <!-- MODAL PARA VISUALIZADOR DE IMÁGENES EN PANTALLA COMPLETA -->
+    <!-- MODAL VISUALIZADOR DE IMÁGENES -->
     <div id="image-modal" class="modal">
         <span class="modal-close">&times;</span>
         <img class="modal-content" id="modal-img">
         <div id="modal-caption"></div>
     </div>
 
-    <footer>
-        <img src="assets/img/20241114_125555.jpg" alt="Sello A/B Group Maestro Mayor de Obras" class="footer-stamp preview-trigger">
+    <!-- FOOTER -->
+    <footer class="reveal">
         <p>© 2026 Gonzalo Antunez — Posadas / Puerto Iguazú</p>
     </footer>
 

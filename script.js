@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    /* MODAL DE IMÁGENES */
+    /* ==========================================
+       MODAL DE IMÁGENES (LIGHTBOX)
+    ========================================== */
     const modal = document.getElementById('image-modal');
     const modalImg = document.getElementById('modal-img');
     const captionText = document.getElementById('modal-caption');
@@ -33,18 +35,21 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    /* ANIMACIÓN SCROLL REVEAL */
+    /* ==========================================
+       ANIMACIÓN SCROLL REVEAL (INTERSECTION OBSERVER)
+    ========================================== */
     const revealElements = document.querySelectorAll('.reveal');
 
     const revealOptions = {
-        threshold: 0.15,
-        rootMargin: "0px 0px -50px 0px"
+        threshold: 0.1, // Se activa cuando el 10% del elemento entra en pantalla
+        rootMargin: "0px 0px -30px 0px"
     };
 
     const revealOnScroll = new IntersectionObserver(function(entries, observer) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('active');
+                // observer.unobserve(entry.target); // Descomentar si quieres que solo se anime 1 vez al bajar
             }
         });
     }, revealOptions);

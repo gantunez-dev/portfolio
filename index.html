@@ -3,85 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gonzalo Antúnez | Portfolio</title>
+    <title>Gonzalo Antunez | Portfolio Ejecutivo</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- HERO / PRESENTACIÓN -->
     <header class="hero">
-        <h1>Gonzalo Sebastián Antúnez</h1>
-        <p class="subtitle">Estudiante de Ingeniería en Informática | Maestro Mayor de Obras | Socio en GIP</p>
-        <p class="location">📍 Misiones, Argentina</p>
-        <div class="social-links">
-            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-            <a href="https://x.com" target="_blank">X (Twitter)</a>
-            <a href="https://github.com" target="_blank">GitHub</a>
+        <div class="hero-content">
+            <h1>Gonzalo Sebastian Antunez</h1>
+            <p class="subtitle">Desarrollador de Software | Maestro Mayor de Obras (MMO) | Operaciones en GIP</p>
+            <div class="credentials">
+                <span class="location">📍 Misiones, Argentina</span>
+                <a href="https://refe.educacion.gob.ar/v/866317n7sdU17fODIhT1VL" target="_blank" class="badge-verified">✓ Título MMO Verificado (Min. Educación)</a>
+            </div>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/gantunez-dev" target="_blank">LinkedIn</a>
+                <a href="https://x.com/gantunez_dev" target="_blank">X (Twitter)</a>
+                <a href="https://github.com/gantunez-dev" target="_blank">GitHub</a>
+            </div>
         </div>
     </header>
 
     <main class="container">
 
-        <!-- PILAR 1: INGENIERÍA Y SOFTWARE -->
+        <!-- PILAR 1: ARQUITECTURA E INFRAESTRUCTURA (MMO) -->
         <section class="portfolio-section">
-            <h2>💻 Software & Algoritmos (UGD)</h2>
+            <h2>🏗️ Infraestructura & Arquitectura (MMO)</h2>
             <div class="card-grid">
-                <article class="card">
-                    <div class="card-header">
-                        <h3>Sistema de Gestión de Gastos Personales y Familiares</h3>
-                        <span class="badge">UGD — 2025</span>
-                    </div>
-                    
-                    <p>Proyecto integrador modular desarrollado para la gestión económica con control de saldos y proyección financiera futura.</p>
-                    
-                    <ul class="card-features">
-                        <li>⚡ Persistencia de datos en archivos binarios (<code>.dat</code>)</li>
-                        <li>📊 10 consultas avanzadas, cálculo de saldos y reportes en <code>.txt</code></li>
-                        <li>🛠️ Modelado de datos mediante estructuras (<code>typedef struct</code>) y punteros</li>
-                    </ul>
+                <article class="card project-highlight">
+                    <img src="assets/img/Escena 1.png" alt="Barrio Gaspar Giai Masterplan Macro" class="card-img-top preview-trigger">
+                    <div class="card-body">
+                        <div class="card-header">
+                            <h3>Intervención Urbana & Complejo Social "Barrio Andrés Gaspar Giai"</h3>
+                            <span class="badge">EPET N° 4 — 2024</span>
+                        </div>
+                        <p>Máster plan ejecutivo de urbanismo y arquitectura bioclimática diseñado para la ciudad de Puerto Iguazú. Proyecto estructurado sobre morfología hexagonal con optimización espacial, patios hídricos y terrazas transitables.</p>
+                        
+                        <div class="metrics-grid">
+                            <div class="metric"><span>Superficie</span> 30.500 m²</div>
+                            <div class="metric"><span>Presupuesto</span> $32.252M ARS</div>
+                            <div class="metric"><span>Cálculo</span> Zapatas H25 (1.6x1.6m)</div>
+                            <div class="metric"><span>Equipo</span> A/B Group</div>
+                        </div>
 
-                    <div class="tech-stack">
-                        <span class="tag">C++</span>
-                        <span class="tag">Archivos Binarios</span>
-                        <span class="tag">Estructuras de Datos</span>
-                        <span class="tag">GCC</span>
-                    </div>
+                        <div class="gallery-preview">
+                            <img src="assets/img/Escena 3_1.png" alt="Cúpula Central y Terraza" class="preview-trigger">
+                            <img src="assets/img/Screenshot 2026-10-23 205044.png" alt="Planimetría en AutoCAD Espacio Modelo" class="preview-trigger">
+                            <img src="assets/img/barrio GIAI-1.jpg" alt="Panel de Concepto y Croquis" class="preview-trigger">
+                            <img src="assets/img/IMG-20241114-WA0069.jpg" alt="Equipo de Trabajo EPET N° 4" class="preview-trigger">
+                        </div>
 
-                    <div class="card-actions">
-                        <a href="https://github.com/gantunez-dev/sistema-gestion-gastos-c-ugd" target="_blank" class="btn">Ver en GitHub</a>
-                        <a href="https://github.com/gantunez-dev/sistema-gestion-gastos-c-ugd/tree/main/docs" target="_blank" class="btn btn-secondary">Ver Documentación PDF</a>
+                        <div class="card-actions">
+                            <a href="assets/docs/Barrio_Gaspar_Giai_Proyecto_Ejecutivo.pdf" target="_blank" class="btn">Ver Legajo Técnico (PDF)</a>
+                            <a href="assets/img/Screenshot 2026-10-23 205044.png" target="_blank" class="btn btn-secondary">Ver Plano CAD HD</a>
+                        </div>
                     </div>
                 </article>
             </div>
         </section>
 
-        <!-- PILAR 2: ARQUITECTURA E INFRAESTRUCTURA -->
+        <!-- PILAR 2: SOFTWARE & SISTEMAS (UGD) -->
         <section class="portfolio-section">
-            <h2>🏗️ Edificación & Proyectos (MMO)</h2>
+            <h2>💻 Software & Sistemas (UGD)</h2>
             <div class="card-grid">
                 <article class="card">
-                    <h3>Legajos Técnicos y Renders</h3>
-                    <p>Diseño CAD, cómputo métrico, presupuesto y documentación técnica bajo matrícula profesional.</p>
-                    <a href="#" class="btn">Ver Legajo Técnico (PDF)</a>
+                    <div class="card-body">
+                        <div class="card-header">
+                            <h3>Motor de Gestión Financiera en C/C++</h3>
+                            <span class="badge">UGD — 2025</span>
+                        </div>
+                        <p>Desarrollo backend para control de gastos estructurado con persistencia de datos local. Diseñado para garantizar la integridad de saldos mediante el manejo de punteros y estructuras de memoria dinámica.</p>
+                        
+                        <ul class="card-features">
+                            <li>⚡ Manejo de I/O mediante Archivos Binarios (<code>.dat</code>) para ingresos, pagos y categorías.</li>
+                            <li>📊 10 módulos algorítmicos de consulta, cálculo de saldo disponible y reporte exportable (<code>.txt</code>).</li>
+                            <li>🛠️ Entorno de compilación GCC nativo para arquitecturas de 64 bits.</li>
+                        </ul>
+
+                        <div class="tech-stack">
+                            <span class="tag">C/C++</span>
+                            <span class="tag">GCC Compiler</span>
+                            <span class="tag">Estructuras de Datos</span>
+                            <span class="tag">I/O Binario</span>
+                        </div>
+
+                        <div class="card-actions">
+                            <a href="https://github.com/gantunez-dev/sistema-gestion-gastos-c-ugd" target="_blank" class="btn">Código Fuente (GitHub)</a>
+                            <a href="https://github.com/gantunez-dev/sistema-gestion-gastos-c-ugd/blob/main/docs/Documentacion_Tecnica_Sistema_Gastos.pdf" target="_blank" class="btn btn-secondary">Ver Documentación Técnica</a>
+                        </div>
+                    </div>
                 </article>
             </div>
         </section>
 
-        <!-- PILAR 3: E-COMMERCE Y GESTIÓN -->
+        <!-- PILAR 3: OPERACIONES & E-COMMERCE (GIP) -->
         <section class="portfolio-section">
-            <h2>📦 E-commerce & Herramientas (GIP)</h2>
+            <h2>📦 Operaciones & Logística (GIP)</h2>
             <div class="card-grid">
                 <article class="card">
-                    <h3>Gestión de Ventas e Importación</h3>
-                    <p>Optimización de listings, estructura de márgenes y comercialización de herramientas en Mercado Libre.</p>
+                    <div class="card-body">
+                        <h3>Gestión de Importación de Herramientas Técnicas</h3>
+                        <p>Dirección de e-commerce y estructuración de inventario en Mercado Libre para líneas de alta potencia (Safarimax Germany, LV PRO, Hongda). Optimización algorítmica de listings para máxima conversión y diseño de infografías técnicas (1200x1200px).</p>
+                    </div>
                 </article>
             </div>
         </section>
 
     </main>
 
+    <!-- MODAL PARA VISUALIZADOR DE IMÁGENES EN PANTALLA COMPLETA -->
+    <div id="image-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="modal-caption"></div>
+    </div>
+
     <footer>
-        <p>© 2026 Gonzalo Antúnez — Posadas / Puerto Iguazú</p>
+        <img src="assets/img/20241114_125555.jpg" alt="Sello A/B Group Maestro Mayor de Obras" class="footer-stamp preview-trigger">
+        <p>© 2026 Gonzalo Antunez — Posadas / Puerto Iguazú</p>
     </footer>
 
     <script src="script.js"></script>
